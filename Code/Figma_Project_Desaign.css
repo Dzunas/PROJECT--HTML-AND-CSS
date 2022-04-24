@@ -1,0 +1,497 @@
+/* font-face */
+@font-face {
+    font-family: poppins-reguler;
+    src: url(../Assets/font/Header/Poppins/Poppins-Regular.ttf);
+}
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins-reguler;
+}
+/* text */
+.text-dec-none{
+    text-decoration: none;
+}
+/* font */
+.font-bold {
+    font-weight: 800;
+}
+.font-normal {
+    font-weight: 400;
+}
+.font-semi-bold {
+    font-weight: 600;
+}
+
+/* font-size */
+.fontsmall {
+    font-size: 20px;
+}
+.fontmedium {
+    font-size: 30px;
+}
+.fontlarge {
+    font-size: 35px;
+}
+/* font-color */
+.fontwhite {
+    color: white;
+}
+.fontblack {
+    color: black;
+}
+/* flexbox */
+.d-flex {
+    display: flex;
+}
+.justify-center {
+    justify-content:center;
+}
+.justify-between {
+    justify-content: space-between;
+}
+.justify-evenly {
+    justify-content: space-evenly;
+}
+.aligncontent-center {
+    align-content:center ;
+}
+.alignitems-center {
+    align-items: center;
+}
+.alignitems-end {
+    align-items: flex-end;
+}
+.flex-row {
+    flex-direction: row;
+}
+.flex-column {
+    flex-direction: column;
+}
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+/* position */
+.porelative {
+    position: relative;
+}
+.poabsolute {
+    position: absolute;
+}
+.posticky {
+    position: sticky;
+    top: 0;
+}
+.pofixed {
+    position: fixed;
+    top: 0;
+}
+.text-left {
+    text-align: left;
+}
+.text-center {
+    text-align: center;
+}
+
+/* border */
+.blue-box {
+    border: 1px  solid #2A50C1;
+    border-radius: 10px;
+    background-color: #2A50C1; 
+}
+.yellow-box {
+    border: 1px  solid #DFBF70;
+    border-radius: 10px;
+    background-color: #DFBF70 ;
+    text-decoration: none;
+    color: black;
+    padding: 15px 70px;
+
+}
+    
+/* Header */
+header {
+    z-index: 10;
+    padding: 5px 20px; 
+    top: 0;
+    background-color: white;
+}
+.signup-button-dropdown, .login-button-dropdown {
+    display: block;
+}
+.signup-button, .login-button {
+    display: none;
+}
+.signup-button:hover, .login-button:hover {
+    border: 1px  solid #2A50C1;
+    border-radius: 10px;
+    background-color: #2A50C1;
+    color: white;
+}
+/* dropdown */
+    /* dropdown-header */
+    .dropdown-menu {
+        display: block;
+    }
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: white ;
+        padding: 10px;
+        width: 80px;
+        right: 0;
+        /* border: 1px solid black; */
+    }
+    .dropdown-content a {
+        font-size: 20px;
+    }
+    .dropdown-menu:hover .dropdown-content {
+        display: block;
+    }
+    /* dropdown-footer */
+    .dropdown-content-footer {
+        display: none;
+    }
+    .dropdown-menu-footer {
+        margin-bottom: 15px;
+    }
+    .dropdown-menu-footer1 {
+        margin-bottom: 15px;
+    }
+    .dropdown-content-footer {
+        display: none;
+        position: relative;
+        background-color: white ;
+        padding-left: 20px;
+        /* width: 150px; */
+        /* border: 1px solid black; */
+    }
+    .dropdown-content-footer p {
+        margin: 0;
+    }
+    .dropdown-menu-footer:hover .dropdown-content-footer {
+        display: block;
+    }
+    .dropdown-menu-footer1:hover .dropdown-content-footer {
+        display: block;
+    }
+
+/* Greeting Section */
+.greet-section {
+    padding: 15px 25px;
+}
+.greet-section div {
+    text-align: center;
+}
+.greet-section div h3 {
+    font-size: 50px;
+    font-weight: 600;
+}
+.greet-section div p {
+    color: #bdc3c7;
+    padding-bottom: 50px;
+}
+.greet-button {
+    display: flex;
+    justify-content: center;
+}
+.img-greet {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.img-greet img {
+    width: 100%;
+}
+.img-greet div img {
+    padding-top: 30px;
+}
+
+/* Video Section */
+.video-section div {
+    background-color: #F2FAF8;
+    padding: 15px 35px;
+}
+.video-section div video {
+    width: 100%;
+}
+
+/* Brand Section */
+.brand-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 35px;
+    margin: 40px 0;
+}
+.brand-section img {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+/* Offer Section */
+.offer-section div {
+    text-align: center;
+    margin: 20px 35px;
+}
+
+/* Review Section  */
+.review-section {
+    display: flex;
+    flex-direction: column;
+    
+}
+.review-section1 {
+    text-align: center;
+    padding-top: 40px;
+}
+.review-section2 {
+    text-align: left;
+    margin-top: 40px;
+    padding: 0 35px;
+    vertical-align:baseline ;
+}
+
+/* Contact Section */
+.contact-section div {
+    text-align: center;
+}
+.contact-section div h3 {
+    font-size: 50px;
+    font-weight: 600;
+}
+.contact-section div p {
+    color: #bdc3c7;
+    padding-bottom: 50px;
+}
+.contact-section {
+    display: flex;
+    justify-content: center;
+    padding: 15px 25px;
+}
+.img-contact {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.img-contact img {
+    width: 100%;
+}
+.img-contact div img {
+    padding-top: 30px;
+}
+
+/* footer */
+.footer-email-box input {
+    width: 91%;
+    margin-bottom: 5px;
+    padding: 0 15px;
+}
+.send-button:hover {
+    border: 1px  solid #2A50C1;
+    border-radius: 10px;
+    background-color: #2A50C1;
+    color: white;
+}
+.team1 {
+    padding: 0 20px;
+}
+.team1-1 {
+    width: 100%;
+}
+
+/* responsive */
+@media (min-width: 576px)  {
+    .signup-button, .login-button {
+        display: none;
+    }
+    .dropdown-menu {
+        display: block;
+    }
+    header {
+        padding: 5px 50px;
+    }
+    .greet-section div {
+        text-align: left;
+    }
+    .greet-section {
+        justify-content: space-between;
+        flex-direction: row;  
+    }
+    .greet-button {
+        display: block;
+        padding-bottom: 50px;
+    }
+    .img-greet {
+        padding-top: 0;
+    }
+    .img-greet div img {
+        padding-top: 0px;
+    }
+    .video-section div video {
+        width: 80%;
+    }
+    .brand-section div img {
+        margin-left: 40px;
+    }
+    .contact-section div {
+        text-align: left;
+    }
+    .contact-section {
+        justify-content: space-between;
+        flex-direction: row;  
+        padding: 15px 100px;
+    }
+    .contact-button {
+        display: block;
+        padding-bottom: 50px;
+    }
+    .img-contact {
+        padding-top: 0;
+    }
+    .img-contact div img {
+        padding-top: 0px;
+    }
+    .team1-1 {
+        width: 75%;
+    }
+    
+    
+
+
+}
+
+@media (min-width: 768px) {
+    header {
+        padding: 5px 100px;
+    }
+    .login-button, .signup-button {
+        display: block;
+    }
+    .dropdown-menu {
+        display: none;
+    }
+    .dropdown-menu-footer1 {
+        width: 80px;
+        margin-left: 0;
+    }
+    .dropdown-content-footer {
+        display: block;
+        padding-left: 0;
+    }
+    .team1-2 {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        
+    }
+    .team1-2 span {
+        margin-right: 50px;
+        /* min-width: 150px; */
+        /* word-break: keep-all; */
+    }
+    .greet-section {
+        justify-content: space-between;
+        flex-direction: row;
+        padding : 15px 100px;
+    }
+    .img-greet {
+        padding-top: 0;
+    }
+    .img-greet div img {
+        padding-top: 0px;
+    }
+    .video-section div video {
+        width: 80%;
+    }
+    .brand-section div img {
+        margin-left: 40px;
+    }
+    .offer-section div {
+        flex-direction: row;
+    }
+    .review-section {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        padding: 25px 35px;
+    }
+    .review-section1 {
+        text-align: left;
+    }
+    /* footer */
+    .footer-email-box {
+        display: flex;
+        align-items: center;
+    }
+    .footer-email-box input {
+        width: 60%;
+    }
+    .footer-email-box div {
+        flex-grow: 1;
+        margin-left: 5px;
+    }
+    .margin-tp {
+        margin-right: 15px;
+    }
+    .team1 {
+        margin: 0;
+        /* justify-content: space-evenly; */
+        flex-direction: row;
+        padding: 0;
+    }
+    .team1-1 {
+        width: 50%;
+    }
+    .team2 {
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .term-policy {
+        display: flex;
+        flex-direction: row;
+    }
+    .term-policy a {
+        margin-right: 25px;
+    }
+    .order1 {
+        order: 1;
+    }
+    .order2 {
+        order: 2;
+    }
+    .order3 {
+        order: 3;
+    }
+    /* end of footer */
+}
+
+@media (min-width: 992px) { 
+    .greet-section div h3 {
+        font-size: 80px;
+    }
+    .img-greet div img {
+        padding-top: 0px;
+    }
+    .video-section div video {
+        width: 80%;
+    }
+    .offer-section div {
+        flex-direction: row;
+    }
+    .team1-2 span {
+        margin-right: 100px;
+    }
+    .footer-email-box input {
+        width: 75%;
+    }
+    
+}
+
+
+
+     
+       
